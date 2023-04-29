@@ -12,3 +12,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var sectot=12560;
+var secxora=3600;
+var ore=sectot / secxora;
+ore=Math.round(ore);
+var min= Math.round((sectot % secxora) /60);
+var secrest=((sectot % 60) );
+console.log (ore + " ore, " + min+" minuti, " +secrest+ " secondi.");
