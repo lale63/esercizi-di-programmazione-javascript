@@ -11,3 +11,8 @@
 
   http://www.imparareaprogrammare.it
 */
+var corr=2018;
+var nasc=1991;
+var età=corr-nasc;
+var manc=100 - età;
+console.log("età = "+età + ", anni mancanti = "+manc);
